@@ -9,7 +9,7 @@
             <li class="linkt"><a href="">Преимущества</a></li>
             <li class="linkr"><a href="">Адрес</a></li>
           </ul>
-          <p class="nomer">6545678765</p>
+          <p class="nomer">8 800 780 90 90</p>
         </div>
       </div>
       <div class="row1">
@@ -20,29 +20,25 @@
             Пройди бесплатный экспресс-тест на знание языка и мы подберем подходящую программу
           </p>
 
-          <button class="btn">
-            <p class="p4">Перейти на Kundalik</p>
-          </button>
+          <button class="btn">Перейти на Kundalik</button>
         </div>
+        <img class="image-one" src="../assets/vector15.png" />
         <div class="menu-two">
           <img src="../assets/Illustration.png" class="img-one" />
         </div>
-        <div class="icon-one">
-          <img src="../assets/vector15.png" alt="" />
-        </div>
+        <img class="image-two" src="../assets/vector 16.png" />
       </div>
     </div>
 
     <div class="info">
       <div class="icon">
-        <img src="../assets/vector15.png" alt="" />
+        <img class="vector-one" src="../assets/Vector 14.png" />
       </div>
       <div class="infoo">
         <div class="info-one">
           <h1 class="besh">> 5 000</h1>
           <p class="page1">Успешных студентов прошедших наши курсы</p>
         </div>
-
         <div class="info-one">
           <h1 class="besh">> 95%</h1>
           <p class="page1">Освоили наши курсы без проблем</p>
@@ -61,19 +57,19 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
 .container {
-  /* border: 1px solid black; */
   width: 1200px;
-  height: 500px;
+  height: 600px;
   top: 50px;
   left: 120px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .head {
-  /* border: 1px solid red; */
   float: right;
   width: 1150px;
   height: 60px;
@@ -81,7 +77,7 @@ export default {}
   left: 147px;
   margin-left: 15px;
   margin-right: 15px;
-  margin-top: 10px;
+  margin-bottom: 100px;
 }
 .link {
   width: 100px;
@@ -94,6 +90,7 @@ export default {}
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
+  margin-top: 10px;
 }
 .linkt {
   width: 177px;
@@ -121,17 +118,17 @@ export default {}
   letter-spacing: 0em;
   text-align: left;
 }
+.logo {
+  margin-left: 300px;
+}
 .nomer {
-  width: 183px;
+  width: 200px;
   height: 28px;
-  top: 65px;
-  left: 1697px;
-  font-family: Raleway;
   font-size: 24px;
-  font-weight: 500;
-  line-height: 28px;
+  /* font-weight: 500;
+  line-height: 28px; */
   letter-spacing: 0em;
-  text-align: left;
+  float: right;
 }
 .school {
   width: 70px;
@@ -143,12 +140,14 @@ export default {}
 .row1 {
   display: flex;
   width: 500px;
-  height: 320px;
-  top: 300px;
-  left: 120px;
-  margin-top: 60px;
-   margin-left: 33px;
-  /*border: 1px solid yellow; */
+  height: 400px;
+  margin-top: 40px;
+}
+.image-one {
+  margin-top: 0px;
+  margin-left: 90px;
+  widows: 50px;
+  height: 50px;
 }
 .p1 {
   width: 350px;
@@ -156,20 +155,18 @@ export default {}
   top: 250px;
   left: 90px;
   font-family: Raleway;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
-  margin-top: 60px;
 }
 .p2 {
-  width: 506px;
-  height: 134px;
-  top: 100px;
-  left: 10px;
+  width: 450px;
+  height: 100px;
+  margin-top: 15px;
   font-family: Raleway;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 300;
   line-height: 10px;
   letter-spacing: 0em;
@@ -178,38 +175,51 @@ export default {}
 }
 .p3 {
   width: 500px;
-  height: 50px;
-  top: 300px;
-  left: 90px;
+  height: 85px;
   font-family: Raleway;
-  font-size: 22px;
-  font-weight: 300;
-  line-height: 25px;
+  font-size: 25px;
+  font-weight: 200;
   letter-spacing: 0em;
   text-align: left;
+  margin-top: 20px;
 }
 .btn {
   width: 200px;
   height: 50px;
-  top: 548px;
-  left: 100px;
-  background: rgb(255, 204, 0);
+  background: rgb(228, 188, 26);
+  margin-top: 15px;
 }
 .menu-two {
-  width: 665px;
-  height: 680px;
-  top: 156px;
-  left: 1123px;
-  border-radius: 150px 150px 0px 0px;
+  width: 400px;
+  height: 380px;
+  margin-left: 2px;
+  /* border: 2px solid black; */
+}
+.img-one {
+  width: 400px;
+  height: 400px;
+  margin-left: 0px;
+  margin-top: 0px;
+  height: 365px;
+  /* border: 1px solid green; */
+  margin-bottom: 0px;
+}
+.image-two {
+  width: 50px;
+  height: 50px;
+  margin-top: 250px;
+  margin-left: 15px;
 }
 .info {
+  /* background: rgb(199, 186, 36); */
   width: 1100px;
   height: 200px;
   flex-shrink: 0;
-  /* border: 2px solid   black; */
   margin: auto;
-  margin-top: 15px;
   align-items: center;
+}
+.vector-one {
+  margin-left: 230px;
 }
 .info-one {
   width: 250px;
@@ -225,7 +235,7 @@ export default {}
   height: 60px;
   margin-top: 5px;
   /* left: 695px;*/
-} 
+}
 .besh {
   width: 176px;
   height: 56px;
@@ -239,27 +249,22 @@ export default {}
   left: 238px;
 }
 .infoo {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
   width: 1100px;
   height: 150px;
   top: 1000px;
   left: 238px;
 }
-.img-one {
-  margin-left: 120px;
-  margin-top: 55px;
-  height: 365px;
-  /* border: 1px solid green; */
-  margin-bottom: 0px;
-}
-.icon-one {
+
+/* .icon-one {
   width: 49.99999932694132px;
   height: 49.99999932694132px;
   top: 200px;
   left: 1080px;
-  border: 1px;
+  border: 1px; }*/
 
-
-}
 /* icon style */
 
 .info {
